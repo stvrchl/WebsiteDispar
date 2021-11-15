@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#topbar {
+    background-color: darkred;
+    color: #fff;
+    height: 35px;
+}
+
+.topc-contact, .sosmed {
+    list-style: none;
+}
+
+#topbar li {
+    display: inline-block;
+}
+
+#topbar li a {
+    color:#fff;
+    display: inline-block;
+    padding: 0 10px;
+}
+#topbar li a i {
+    color: yellow;
+    margin-right: 5px;
+}
+
+#topbar .sosmed li a {
+    padding: 0 5px;
+}
+
+#topbar .sosmed li a i {
+    color:yellow;
+}
