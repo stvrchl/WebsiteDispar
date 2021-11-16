@@ -1,36 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
+    color: black;
 }
 
-#topbar {
-    background-color: darkred;
-    color: #fff;
-    height: 35px;
+.main {
+    padding-left: 0;
+    padding-right: 0;
+    top: 10rem;
 }
 
-.topc-contact, .sosmed {
+.page-footer ul,
+li {
     list-style: none;
 }
 
-#topbar li {
-    display: inline-block;
+
+/* roootttttttttttttttt */
+
+:root {
+    --main-dark: #03045e;
+    --second-dark: #0077b6;
+    --main--color: #00b4d8;
+    --second-light: #90e0ef;
+    --main-light: #caf0f8;
 }
 
-#topbar li a {
-    color:#fff;
-    display: inline-block;
-    padding: 0 10px;
-}
-#topbar li a i {
-    color: yellow;
-    margin-right: 5px;
+nav {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    box-shadow: 2px 1px rgba(0, 0, 0, .25);
+    position: fixed;
 }
 
-#topbar .sosmed li a {
-    padding: 0 5px;
+nav img {
+    height: 40px;
+    margin-right: 1rem;
 }
 
-#topbar .sosmed li a i {
-    color:yellow;
+.jumbotron {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+    color: white;
+}
+
+.carousel-inner .jumbotron {
+    height: 900px;
+}
+
+.page-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--main-dark);
+}
+
+.page-footer .row1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.page-footer li a {
+    text-decoration: none;
+    color: white;
+}
+
+.page-footer li a i {
+    padding-right: 1rem;
+}
+
+.page-footer .sosmed {
+    display: flex;
+    flex-direction: row;
+}
+
+.copy {
+    text-align: center;
+    color: white;
 }
