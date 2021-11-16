@@ -81,4 +81,11 @@ nav img {
 .copy {
     text-align: center;
     color: white;
+}.jumbotron img {
+    height: 300px;
+    padding: top;
+}
+
+.carousel-inner {
+    height: auto;
 }
